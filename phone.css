@@ -1,0 +1,49 @@
+/* navbar top  */
+.navbar{
+
+width: auto;
+}
+/* navbar 2  */
+/* .navbar2{
+
+} */
+/* about us  */
+#aboutus{
+height:512px;
+}
+/* random clicks */
+#raclick{
+    flex-direction: column;
+    height: 1315px;
+}
+.random{
+    flex-direction: column;
+}
+/* join us now */
+/* #join{ */
+        
+/* } */
+/* social platforms */
+#social{
+height: 406px;
+}
+#socialheading{
+    padding-left: 61px;
+}
+/* footer  */
+/* .ftr{ */
+
+/* } */
+/* #trmSs a{ */
+    /* font-size: 30px;
+    position: absolute;
+    left:20px;
+    top:10px; */
+
+/* } */
+#cpy{
+    font-size: 20px;
+}
+#aut{
+    margin-left: 37px;
+}

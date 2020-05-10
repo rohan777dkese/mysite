@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.Photoclick.com</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" media="screen and (max-width:1130px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:650px)" href="phone2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <div id="logo">
+                <img src="logo.png" alt="photoclick">
+            </div>
+            <div>
+                <h3 id="title">PhotoClick.com</h3>
+            </div>
+            <div>
+                <input type="text" id="inp" placeholder="search images">
+            </div>
+        </nav>
+    </header>
+    <section class="navbar2">
+        <div id="flogo">
+            <img src="logo.png" alt="photoclick">
+        </div>
+        <div>
+            <h2 id="maintitle">PhotoClick | Photography</h2>
+        </div>
+        <div>
+            <ul>
+                <li><a class="nav " href="#aboutus">About Us</a></li>
+                <li><a class="nav " href="#join">Join and Earn</a></li>
+                <li><a class="nav " href="#raclick">Random Clicks</a></li>
+                <li><a class="nav " href="#social">Social Platforms</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="aboutus">
+        <h2 id="heading">About Us</h2>
+        <p id="para">
+            Welcome to the world of photography.If a picture tells a thousand words, then it stands to reason that
+            photography will have inspired its fair share of writings.Here,you will learn how to earn a lot of
+            money,just by posting and sharing your wonderful photos with us,whenever someone download your photos,you
+            will get a certain interest of that.
+        </p>
+        <p id="aut">
+            THERE ARE NO RULES FOR GOOD PHOTOGRAPHS,THERE ARE ONLY GOOD PHOTOGRAPHS.
+        </p>
+        <p id="authr">-ANSEL ADAMS</p>
+    </section>
+    <section id="raclick">
+        <div>
+            <h2 id="racheading">Random Clicks</h2>
+        </div>
+        <div class="random">
+            <div class="image">
+                <h3 class="rh">THE CAT</h3>
+                <img src="cat.jpg" alt="">
+            </div>
+            <div class="image">
+                <h3 class="rh">THE GUITARIST</h3>
+                <img src="guitarist.jpg" alt="">
+            </div>
+            <div class="image">
+                <h3 class="rh">PLAYGROUND</h3>
+                <img src="park.jpg" alt="">
+            </div>
+        </div>
+        <div id="more">
+           <h3><a href="moreimages.html" target="_blank">more images..</a></h3>
+        </div>
+    </section>
+    <section id="join">
+        <div id="joinheading">
+            <h2>Join Us Now</h2>
+        </div>
+        <form action="backend.php">
+            <div class="form">
+                <div class="each">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="enter your name">
+                </div>
+                <div class="each">
+                    <label for="name">Email:</label>
+                    <input type="text" id="name" placeholder="enter your email">
+                </div>
+                <div class="each">
+                    <label for="name">Age:</label>
+                    <input type="text" id="name" placeholder="enter your age">
+                </div>
+                <div class="each">
+                    <label for="name">Locality:</label>
+                    <input type="text" id="name" placeholder="enter your Locality">
+                </div>
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+
+    </section>
+    <section id="social">
+        <div id="socialheading">
+            <h2>Follow Us On Different Social Platforms</h2>
+        </div>
+        <div class="allplatform">
+            <div class="platforms">
+                <img src="facebbok.png" alt="">
+                <h3><a href="https://www.facebook.com" target="_blank">facebook</a></h3>
+            </div>
+            <div class="platforms">
+                <img src="instamain.png" alt="">
+                <h3><a href="https://www.instagram.com" target="_blank">instagram</a></h3>
+            </div>
+            <div class="platforms">
+                <img src="twitter.png" alt="">
+                <h3><a href="https://www.twitter.com" target="_blank">twitter</a></h3>
+            </div>
+            <div class="platforms">
+                <img src="youtube.png" alt="">
+                <h3><a href="https://www.youtube.com" target="_blank">youtube</a></h3>
+            </div>
+        </div>
+    </section>
+    <footer class="ftr">
+        <div>
+            <h2 id="cpy">copyright &copy;. all rights reserved</h2>
+        </div>
+        <!-- <div>
+            <h2 id="trms"><a href="#">terms and conditions..</a></h2>
+        </div> -->
+    </footer>
+</body>
+
+
+</html>
